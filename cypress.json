@@ -1,0 +1,10 @@
+{
+	"video": false,
+	"viewportHeight": 300,
+	"viewportWidth": 300,
+	"testFiles": "**/*spec.js",
+	"experimentalComponentTesting": true,
+	"experimentalFetchPolyfill": true,
+	"componentFolder": "./src/components",
+	"nodeVersion": "system"
+}

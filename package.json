@@ -1,0 +1,34 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public -s --no-clear",
+    "cypress:open": "node_modules\\.bin\\cypress open"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "cypress": "^6.9.1",
+    "cypress-svelte-unit-test": "^3.3.4",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0",
+    "svelte-yup": "^1.0.5",
+    "yup": "^0.32.11"
+  },
+  "dependencies": {
+    "modal-overlay": "^1.0.1",
+    "sass": "^1.46.0",
+    "sirv-cli": "^1.0.0",
+    "svelte-inline-svg": "^1.0.8",
+    "svelte-preprocess": "^4.10.1",
+    "svelte-routing": "^1.6.0"
+  }
+}
